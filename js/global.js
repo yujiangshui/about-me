@@ -309,7 +309,6 @@ window.onscroll = Global.throttle(function(){
                 break;
         }
 
-        $('.section-content .fade').removeClass('fade-in');
         Global.fadeInByOrder(fadeInTarget,200);
 
     },50);
