@@ -1,0 +1,82 @@
+/***********************************************************************************/
+/*                                  Media Queries                                  */
+/***********************************************************************************/
+.state-indicator {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+
+    z-index: 1;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
+
+.state-indicator{
+	z-index: 2;
+}
+.nav .back-home a{
+	background-image: url(images/avatar@2x.jpg);
+}
+
+}
+@media only screen and (max-width: 1024px) {
+
+
+.works-content{
+	margin-top: 140px !important;
+}
+
+/*e1024*/
+}
+@media only screen and (max-width: 960px) {
+
+.nav{
+	width: 760px;
+}
+.section{
+	width: 760px;
+}
+
+/*e960*/
+}
+@media only screen and (max-width: 800px) {
+
+.section-about .about-content{
+	position: relative;
+}
+.section-about .about-content .left{
+	float: none;
+	margin: 20px 0 0 20px;
+}
+.section-about .about-content .right{
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.section-about .about-content .my-photo{
+	width: 250px;
+	height: auto;
+}
+.works-list{
+	width: 630px;
+	margin: 0 auto;
+}
+.works-content .works-item:nth-child(2n+1){
+	margin-left: 0 !important;
+}
+.works-content .works-item:nth-child(2n){
+	margin-left: 30px !important;
+}
+.skill-content{
+	width: 600px;
+	margin: 0 auto;
+}
+.contact-content{
+	width: 600px;
+	margin: 0 auto;
+}
+.section-contact .contact-content h1{
+	text-align: center;
+}
+
+/*e768*/
+}
