@@ -1,7 +1,7 @@
 about-me
 ========
 
-于江水个人网页简历的源代码。在线地址：<http://yujiangshui.com/aboutme/>
+于江水个人网页简历的源代码。在线地址：<http://yujiangshui.github.io/about-me/>
 
 就是一个单页，编写了一些函数和使用了一些 CSS3 的效果，你可以直接查看本项目的源代码。
 
